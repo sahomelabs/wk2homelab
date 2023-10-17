@@ -28,13 +28,21 @@
 
 
 // 3. Write a function that takes bill amount and item price and says how many quarters they'd get in return
-// let remainder = 6;
-// let quarters = 0;
-// function countQuarters(billAmount,itemPrice){
-//     let totalCost = billAmount - itemPrice;
-//     let numQuarters = Math.floor(totalCost / .25);
-//     console.log(`You would receive ${numQuarters} quarters`);
+// function countQuarters(billAmount, itemPrice) {
+//     if (billAmount < itemPrice) {
+//         return 'Add Bill Accepted Bills $5, $10, $20, $50 or Quarter';
 //     }
+//     const changeDue = billAmount - itemPrice;
+//     const quarters = Math.floor(changeDue / 0.25);
+//     return quarters;
+// }
+// const billAmount = 10.00;
+// const itemPrice = 9.00;
+// const quarters = countQuarters(billAmount, itemPrice);
+// console.log(`Thank you for shopping with us your change is ${quarters} quarters.`);
+
+
+  
 
 // 5. Write a program that uses console.log to print all the numbers from 1 to 100 with two exceptions. 
 // For numbers divisible by 3, print "Fizz" instead of the number, and for numbers divisible by 5 (and not 3), print "Buzz" instead. 
