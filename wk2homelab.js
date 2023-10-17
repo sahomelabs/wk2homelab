@@ -15,6 +15,8 @@
 // }
 // graderesult(57);
 
+
+
 // //2. Write function that prints out mutiple of 10 up to a given input (argument)
 // function printmutiplesoften(numbers) {
 //     for (let i = 10; i <= numbers; i += 10) {
@@ -42,7 +44,23 @@
 // console.log(`Thank you for shopping with us your change is ${quarters} quarters.`);
 
 
+
+//4. Write a function that prints out how many bills you would recieve in change after paying a certain amount. Return in as large denominations as possible. Parameters should be amount paind and amount cost
+
+// function countBillChange(amountPaid, amountCost) {
+//     if (amountPaid < amountCost) {
+//         return 'Bills Only Accepted $5, $10, $20, $50, $100 ';
+//     }
+//     const changeDue = amountPaid - amountCost;
+//     const billsinChange = Math.floor(changeDue);
+//     return billsinChange;
+// }
+// const amountPaid = 200;
+// const amountCost = 100;
+// const billsinChange = countBillChange(amountPaid, amountCost);
+// console.log(`Thank you for shopping with us your change is ${billsinChange} Dollars.`);
   
+
 
 // 5. Write a program that uses console.log to print all the numbers from 1 to 100 with two exceptions. 
 // For numbers divisible by 3, print "Fizz" instead of the number, and for numbers divisible by 5 (and not 3), print "Buzz" instead. 
